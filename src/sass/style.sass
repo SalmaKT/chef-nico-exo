@@ -1,0 +1,225 @@
+$fa-font-path: '../../public/webfonts' ;
+@import "../../node_modules/@fortawesome/fontawesome-free/scss/fontawesome.scss" 
+@import "../../node_modules/@fortawesome/fontawesome-free/scss/brands.scss" 
+@import "../../node_modules/@fortawesome/fontawesome-free/scss/solid.scss" 
+
+$danger: #dc3545;
+@import '../../node_modules/bootstrap/dist/css/bootstrap.css'
+
+html 
+    scroll-behavior: smooth
+
+
+#banner #carouselExampleIndicators 
+    height: 100vh
+    position: relative
+    img
+        filter: brightness(0.2)
+        height: 100vh
+        width: auto
+    
+    .carousel-point 
+        height: 16px !important
+        width: 16px !important
+        border-radius: 50% !important
+    
+    .active 
+        background-color: white !important
+        position: relative
+        .point
+            background-color: white !important
+            position: absolute
+            height: 12px
+            width: 12px
+            transform: translate(-50%, -50%)
+            top: 50%
+            left: 50%
+            border: 3px solid rgba(0, 0, 0, 0.699)
+            border-radius: 50%
+
+    
+    #text-accueil
+        font-family: Courgette
+        position: absolute
+        top: 50%
+        left: 50%
+        transform: translate(-50%, -50%)
+        li button 
+            font-family: Arial, Helvetica, sans-serif
+            border-radius: 30px
+        
+
+.bottom-section
+    background-image: url(../../public/images/bottom_decoration_img.png)
+    position: absolute
+    height: 10px
+    width: 100%
+    bottom: 0px
+
+
+.menu 
+    background-image: url(../../public/images/main_bg.jpg)
+    padding-top: 5%
+    padding-bottom: 5%
+    .container
+        background-color: white
+        position: relative
+        img.corner-1
+            position: absolute
+            top: 0
+            left: 0
+        
+        img.corner-2
+            position: absolute
+            top: 0
+            right: 0
+        
+        img.corner-3
+            position: absolute
+            bottom: 0
+            left: 0
+        
+        img.corner-4
+            position: absolute
+            bottom: 0
+            right: 0
+        
+        h1 
+            font-family: Courgette
+        
+    
+        .tabulation 
+            font-family: Courgette
+            border-right: solid 1px lightgray !important
+            padding-right: 0
+
+            .nav-link 
+                color: black
+                border-bottom: solid 1px lightgray !important
+                border-radius: 0%
+                i 
+                    color: lightgray !important
+                    padding-top: 10px
+                    padding-bottom: 10px
+                
+            .active
+                background-color: white !important
+                color: dark !important
+                border-right: solid $danger 5px !important
+                i 
+                    color: $danger !important
+                
+        
+        .carte-menu 
+            .media 
+                border-bottom: dotted 1px lightgray !important
+            
+            .badge 
+                background-color: rgb(236, 174, 174) !important
+            
+
+.ourchef 
+    background-image:
+    linear-gradient(rgba(0, 0, 0, 0.479), black),
+    url(../../public/images/team_background.jpg)
+    h1 
+        font-family: Courgette
+    
+    .row img 
+        border-bottom: solid 1px lightgray !important
+    
+
+.bookyourtable 
+    background-image: url(../../public/images/main_bg.jpg)
+    padding-top: 5%
+    padding-bottom: 5%
+    .container 
+        background-color: white !important
+        position: relative
+        img.corner-1 
+            position: absolute
+            top: 0
+            left: 0
+        
+        img.corner-2
+            position: absolute
+            top: 0
+            right: 0
+         
+        img.corner-3 
+            position: absolute
+            bottom: 0
+            left: 0
+        
+        img.corner-4
+            position: absolute
+            bottom: 0
+            right: 0
+
+        h1 
+            font-family: Courgette
+        
+        form
+            background-image: url(../../public/images/book_table_bg.jpg)
+            border-radius: 30px
+            input, select 
+                border-radius: 20px !important
+                padding-top: 25px !important
+                padding-bottom: 25px !important
+            
+        
+        button
+            font-family: Arial, Helvetica, sans-serif
+            border-radius: 30px
+        
+        .blog 
+            position: relative
+            img 
+                border: solid 5px lightgray !important
+                border-radius: 30px
+            
+            h5
+                position: absolute
+                top: 230px
+                border-radius: 10px
+            
+            h4 
+                margin-top: 40px
+            
+
+
+.client 
+    background-image: url(../../public/images/testimonials_background.jpg)
+    h1 
+        font-family: Courgette
+    
+    .media
+        img 
+            width: 150px
+            border: solid 5px lightgray !important
+        
+        .media-body
+            border-radius: 15px
+        
+
+.contact 
+    background-image: url(../../public/images/main_bg.jpg)
+    h1 
+        font-family: Courgette
+    
+    .w-30
+        width: 30%
+        border-radius: 20px
+    
+
+footer
+    background-image: url(../../public/images/footer_background.jpg)
+    position: relative
+
+
+.top-section
+    background-image: url(../../public/images/footer_bottom_decoration_img.png)
+    position: absolute
+    height: 10px
+    width: 100%
+    top: 0px

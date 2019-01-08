@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="/node_modules/@fortawesome/fontawesome-free/css/all.css">
+    <link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
+    <link rel="stylesheet" href="public/css/style.css">
+    <title>HAJJI Salma</title>
+</head>
+<body>
+<!-- DÉBUT DE LA DIAPO 1 = header>nav#>ul#>li#^a>img^nav#>ul#>li# -->
+    <header>
+
+        <nav id="nav" class="navbar navbar-dark navbar-expand fixed-top pb-0 pt-0">
+            <!-- première partie de la nav-bar (gauche) -->
+            <ul id="nav-1" class="navbar-nav ml-auto border-top border-bottom border-light">
+                <li id="l-home" class="nav-item bg-danger"><a href="#" class="nav-link px-4 py-3 text-light">HOME</a></li>
+                <li id="l-about" class="nav-item"><a href="#" class="nav-link px-4 py-3 text-light">ABOUT US</a></li>
+                <li id="l-menu" class="nav-item"><a href="#" class="nav-link px-4 py-3 text-light">MENU LIST</a></li>
+                <li id="l-team" class="nav-item"><a href="#" class="nav-link px-4 py-3 text-light">TEAM</a></li>
+            </ul>
+
+            <!-- l'image cliquable-->
+            <a id="nav-2" href="#" class="navbar-brand px-5 py-2 mr-4 ml-4 mb-0">
+                <img src="/public/images/logo.png" alt="#"></a>
+
+            <!-- deuxième partie de la nav-bar (droite)-->
+            <ul id="nav-3" class="navbar-nav mr-auto border-top border-bottom border-light">
+                <li id="l-reservation" class="nav-item"><a href="#" class="nav-link px-4 py-3 text-light">RESERVATION</a></li>
+                <li id="l-blog" class="nav-item"><a href="#" class="nav-link px-4 py-3 text-light">BLOG</a></li>
+                <li id="l-testimonials" class="nav-item"><a href="#" class="nav-link px-4 py-3 text-light">TESTIMONIALS</a></li>
+                <li id="l-contact" class="nav-item"><a href="#" class="nav-link px-4 py-3 text-light">CONTACT US</a></li>
+            </ul>
+
+        </nav> 
+
+    </header> 
+    <!-- fin du header>nav -->
+
+    <!-- img du DIAPO 1 qui est un carrousel-->
+    <section id="banner"> 
+
+        <div id="carouselExampleIndicators" class="carousel slide mh-100" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li class="carousel-point active" data-target="#carouselExampleIndicators" data-slide-to="0">
+                    <div class="point"></div></li>
+                <li class="carousel-point" data-target="#carouselExampleIndicators" data-slide-to="1">
+                    <div class="point"></div></li>
+                <li class="carousel-point" data-target="#carouselExampleIndicators" data-slide-to="2">
+                    <div class="point"></div></li>
+            </ol>
+            <div class="carousel-inner mh-100">
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src="/public/images/banner1.jpg" alt="FIRST_SLIDE">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="/public/images/banner1.jpg" alt="SECOND_SLIDE">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="/public/images/banner1.jpg" alt="THIRD_SLIDE">
+                </div>
+            </div>
+            <!-- text-center dans le carrousel-->
+            <div id="text-accueil">
+                <h1 class="text-light text-center">Whatever your <span class="display-4 text-uppercase">occasion</span>,
+                    <br>
+                    <span class="display-4 text-uppercase text-danger">taste</span> <span class="display-4">makes</span>
+                    it one <br>
+                    to <span class="display-4">remember!</span></h1>
+                <ul class="list-inline text-center mt-5">
+                    <li class="list-inline-item"><button class="btn btn-light text-dark p-3">PURCHASE THEME</button></li>
+                    <li class="list-inline-item"><button class="btn btn-danger text-light p-3">LEARN MORE</button></li>
+                </ul>
+            </div>
+            <!-- effet-img-pr-fin-de-section -->
+            <div class="bottom-section"></div>
+        </div>
+
+    </section> 
+    <!-- fin du carroussel-->
+<!-- FIN DE LA DIAPO 1 -->
+
+<!-- DÉBUT DE LA DIAPO 2 -->
+    <section class="menu"> 
+        
+        <div class="container"> <!-- img-corner a arrangé pour chaque coin de la section -->
+            <img src="/public/images/box-left-top.png" alt="box-left-top" class="corner-1">
+            <img src="/public/images/box-right-top.png" alt="box-right-top" class="corner-2">
+            <img src="/public/images/box-bottom-left.png" alt="box-bottom-left" class="corner-3">
+            <img src="/public/images/box-bottom_right.png" alt="box-bottom_right" class="corner-4">
+            
+            <!-- partie "OUR STORY" -->
+            <h1 class="text-center pt-5 mb-0"><span class="text-danger display-4">OUR</span> Story</h1>
+            <img class="d-block mx-auto" src="/public/images/decoration_line.png" alt="decoration_line">
+            <p class="w-50 mx-auto text-center py-5">Apud has gentes, quarum exordiens initium ab Assyriis ad 
+            Nili cataractas porrigitur et confinia Blemmyarum, omnes pari sorte sunt bellatores seminudi coloratis 
+            sagulis pube tenus amicti, equorum adiumento pernicium graciliumque camelorum per diversa se raptantes, 
+            in tranquillis vel turbidis rebus: nec eorum quisquam aliquando stivam adprehendit vel arborem colit aut 
+            arva subigendo quaeritat victum, sed errant semper per spatia longe lateque distenta sine lare sine sedibus 
+            fixis aut legibus: nec idem perferunt diutius caelum aut tractus unius soli illis umquam placet.</p>
+
+            <!-- partie "OUR MENU LIST"-->
+            <h1 class="text-center pt-5 mb-0"><span class="text-danger display-4">OUR</span> Menu List</h1>
+            <img class="d-block mx-auto" src="/public/images/decoration_line.png" alt="decoration_line">
+
+            <div id="menu" class="row py-5"> <!-- row = gauche-tab+droite-menu -->
+
+                <!-- TAB-GAUCHE-COLUMN-CLIQUABLE-AVC-ICON-->
+                <div class="col-3 text-center tabulation h3"> <!-- Positionnement Nav-pill = v - empillée - tab -->
+                    <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                        <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" 
+                            href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">
+                                <i class="fas fa-mug-hot pl-3"></i> <br> BreakFast</a>
+                        <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" 
+                            href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">
+                                <i class="fas fa-utensils pl-3"></i> <br>Lunch</a>
+                        <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" 
+                            href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">
+                                <i class="fas fa-concierge-bell pl-3"></i> <br>Snacks</a>
+                        <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" 
+                            href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">
+                                <i class="fas fa-mug-hot pl-3"></i> <br>Dinner</a>
+                    </div>
+                </div> 
+                <!-- FIN GAUCHE-TAB -->
+
+
+                <!-- DÉBUT DROITE-MENU-KIFKIF -->
+                <div class="col-9 carte-menu"> 
+
+                    <div class="tab-content" id="v-pills-tabContent"> <!-- menu de barres latérales-->
+                        <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+                            
+                            <!-- DÉBUT col-6*2 pour la première ligne -->
+                            <div class="row"> 
+
+                                <div class="col-6">
+                                    <div class="media">
+                                        <img class="align-self-center mr-2 rounded-circle" 
+                                            src="/public/images/menu_image_1.jpg" style="width: 90px" 
+                                            alt="menu_image_1">
+                                        <div class="media-body">
+                                            <p class="mt-4 mb-0 font-weight-bold">Deer Steak with Potatos</p>
+                                            <p>Welcome to Risotto restaurant website. Here we try to share our</p>
+                                        </div>
+                                        <h4><span class="badge align-self-middle mt-5 ml-1 text-danger">$25</span></h4>
+                                    </div>
+                                </div>
+
+                                <div class="col-6">
+                                    <div class="media">
+                                        <img class="align-self-center mr-2 rounded-circle" src="/public/images/menu_image_1.jpg"
+                                            style="width: 90px" alt="menu_image_1">
+                                        <div class="media-body">
+                                            <p class="mt-4 mb-0 font-weight-bold">Deer Steak with Potatos</p>
+                                            <p>Welcome to Risotto restaurant website. Here we try to share our</p>
+                                        </div>
+                                        <h4><span class="badge align-self-middle mt-5 ml-1 text-danger">$35</span></h4>
+                                    </div>
+                                </div>
+
+                            </div> 
+                            <!-- FIN col-6*2 pour la première ligne -->
+
+
+                            <!-- DÉBUT col-6*2 pour la deuxième ligne -->
+                            <div class="row">
+
+                                <div class="col-6">
+                                    <div class="media">
+                                        <img class="align-self-center mr-2 rounded-circle" src="/public/images/menu_image_1.jpg"
+                                            style="width: 90px" alt="menu_image_1">
+                                        <div class="media-body">
+                                            <p class="mt-4 mb-0 font-weight-bold">Deer Steak with Potatos</p>
+                                            <p>Welcome to Risotto restaurant website. Here we try to share our</p>
+                                        </div>
+                                        <h4><span class="badge align-self-middle mt-5 ml-1 text-danger">$25</span></h4>
+                                    </div>
+                                </div>
+
+                                <div class="col-6">
+                                    <div class="media">
+                                        <img class="align-self-center mr-2 rounded-circle" src="/public/images/menu_image_1.jpg"
+                                            style="width: 90px" alt="menu_image_1">
+                                        <div class="media-body">
+                                            <p class="mt-4 mb-0 font-weight-bold">Deer Steak with Potatos</p>
+                                            <p>Welcome to Risotto restaurant website. Here we try to share our</p>
+                                        </div>
+                                        <h4><span class="badge align-self-middle mt-5 ml-1 text-danger">$35</span></h4>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <!-- FIN col-6*2 pour la deuxième ligne -->
+
+
+                            <!-- DÉBUT col-6*2 pour la troisième ligne -->
+                            <div class="row">
+
+                                <div class="col-6">
+                                    <div class="media">
+                                        <img class="align-self-center mr-2 rounded-circle" src="/public/images/menu_image_1.jpg"
+                                            style="width: 90px" alt="menu_image_1">
+                                        <div class="media-body">
+                                            <p class="mt-4 mb-0 font-weight-bold">Deer Steak with Potatos</p>
+                                            <p>Welcome to Risotto restaurant website. Here we try to share our</p>
+                                        </div>
+                                        <h4><span class="badge align-self-middle mt-5 ml-1 text-danger">$25</span></h4>
+                                    </div>
+                                </div>
+
+                                <div class="col-6">
+                                    <div class="media">
+                                        <img class="align-self-center mr-2 rounded-circle" src="/public/images/menu_image_1.jpg"
+                                            style="width: 90px" alt="menu_image_1">
+                                        <div class="media-body">
+                                            <p class="mt-4 mb-0 font-weight-bold">Deer Steak with Potatos</p>
+                                            <p>Welcome to Risotto restaurant website. Here we try to share our</p>
+                                        </div>
+                                        <h4><span class="badge align-self-middle mt-5 ml-1 text-danger">$35</span></h4>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <!-- DÉBUT col-6*2 pour la troisième ligne -->
+
+
+                            <!-- DÉBUT col-6*2 pour la quatrième ligne -->
+                            <div class="row">
+
+                                <div class="col-6">
+                                    <div class="media">
+                                        <img class="align-self-center mr-2 rounded-circle" src="/public/images/menu_image_1.jpg"
+                                            style="width: 90px" alt="menu_image_1">
+                                        <div class="media-body">
+                                            <p class="mt-4 mb-0 font-weight-bold">Deer Steak with Potatos</p>
+                                            <p>Welcome to Risotto restaurant website. Here we try to share our</p>
+                                        </div>
+                                        <h4><span class="badge align-self-middle mt-5 ml-1 text-danger">$25</span></h4>
+                                    </div>
+                                </div>
+
+                                <div class="col-6">
+                                    <div class="media">
+                                        <img class="align-self-center mr-2 rounded-circle" src="/public/images/menu_image_1.jpg"
+                                            style="width: 90px" alt="menu_image_1">
+                                        <div class="media-body">
+                                            <p class="mt-4 mb-0 font-weight-bold">Deer Steak with Potatos</p>
+                                            <p>Welcome to Risotto restaurant website. Here we try to share our</p>
+                                        </div>
+                                        <h4><span class="badge align-self-middle mt-5 ml-1 text-danger">$35</span></h4>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <!-- FIN col-6*2 pour la quatrième ligne -->
+
+
+                            <!-- DÉBUT col-6*2 pour la cinquième et dernière ligne -->
+                            <div class="row">
+
+                                <div class="col-6">
+                                    <div class="media">
+                                        <img class="align-self-center mr-2 rounded-circle" src="/public/images/menu_image_1.jpg"
+                                            style="width: 90px" alt="menu_image_1">
+                                        <div class="media-body">
+                                            <p class="mt-4 mb-0 font-weight-bold">Deer Steak with Potatos</p>
+                                            <p>Welcome to Risotto restaurant website. Here we try to share our</p>
+                                        </div>
+                                        <h4><span class="badge align-self-middle mt-5 ml-1 text-danger">$25</span></h4>
+                                    </div>
+                                </div>
+
+                                <div class="col-6">
+                                    <div class="media">
+                                        <img class="align-self-center mr-2 rounded-circle" src="/public/images/menu_image_1.jpg"
+                                            style="width: 90px" alt="menu_image_1">
+                                        <div class="media-body">
+                                            <p class="mt-4 mb-0 font-weight-bold">Deer Steak with Potatos</p>
+                                            <p>Welcome to Risotto restaurant website. Here we try to share our</p>
+                                        </div>
+                                        <h4><span class="badge align-self-middle mt-5 ml-1 text-danger">$35</span></h4>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <!-- FIN col-6*2 pour la cinquième et dernière ligne -->
+                        </div>
+                    </div>
+                </div>
+                <!-- FIN DROITE-MENU-KIFKIF -->
+
+            </div>
+            <!-- FIN row = gauche-tab + droite-menu -->
+
+            <img class="d-block mx-auto py-5" src="/public/images/decoration_line.png" alt="decoration_line">
+
+        </div><!-- FIN du container avec les img en corners jusqu'ici -->
+    </section> 
+<!-- FIN DIAPO 2 -->
+
+<!-- DÉBUT DIPO 3 -->
+    <section class="ourchef"> <!-- titre+img_deco_line+4img_chef+sous_titres-->
+
+        <div class="container py-5"> <!--centralisé-->
+
+            <!-- DÉBUT titre+img_deco_line-->
+            <h1 class="text-center pt-5 mb-0 text-light"> 
+                <span class="text-danger display-4">OUR</span> Chef</h1>
+            <img class="d-block mx-auto" src="/public/images/decoration_line.png" alt="decoration_line"> 
+            <!-- FIN titre+img_deco_line -->
+            
+            <!-- DÉBUT 4img_chefs+sous_titres-->
+            <div class="row pt-5 text-light text-center"> 
+
+                <div class="col-3"> <!-- chef 1-->
+                    <img src="/public/images/chef1.png" alt="decoration_line">
+                    <p>Lorem, ipsum.</p>
+                </div>
+
+                <div class="col-3"> <!-- chef 2-->
+                    <img src="/public/images/chef2.png" alt="decoration_line">
+                    <p>Lorem, ipsum.</p>
+                </div>
+
+                <div class="col-3"> <!-- chef 3-->
+                    <img src="/public/images/chef3.png" alt="decoration_line">
+                    <p>Lorem, ipsum.</p>
+                </div>
+
+                <div class="col-3"> <!-- chef 4-->
+                    <img src="/public/images/chef4.png" alt="decoration_line">
+                    <p>Lorem, ipsum.</p>
+                </div>
+
+            </div>
+            <!-- FIN 4img_chefs+sous_titres-->
+
+        </div> <!-- FIN du container pr centralisé-->
+    </section>
+<!-- FIN DIAPO 3-->
+
+<!-- DÉBUT DIAPO 4-->
+    <section class="bookyourtable">
+
+        <div class="container py-5">
+            <img src="/public/images/box-left-top-grey.png" alt="box-left-top-grey" class="corner-1">
+            <img src="/public/images/box-right-top-grey.png" alt="box-right-top-grey" class="corner-2">
+            <img src="/public/images/box-bottom-left-grey.png" alt="box-bottom-left-grey" class="corner-3">
+            <img src="/public/images/box-bottom_right-grey.png" alt="box-bottom_right-grey" class="corner-4">
+
+            <!-- partie 1 "BOOK YOUR TABLE3-->
+            <h1 class="text-center pt-5 mb-0"><span class="text-danger display-4">BOOK</span> Your Table</h1>
+            <img class="d-block mx-auto pb-3" src="/public/images/decoration_line.png" alt="decoration_line">
+            
+            <!-- DÉBUT FORMULAIRE-->
+            <form class="w-75 bg-dark mx-auto my-5">
+                <p class="text-light text-center py-5">For any query please call us at : <span class="h4">+91-1234567890</span></p>
+                
+                <div class="form-row px-5 mx-auto">
+                    <div class="form-group col-md-6">
+                        <input type="email" class="form-control w-75 mr-2 ml-auto" placeholder="Enter Full Name">
+                    </div>
+                    <div class="form-group col-md-6">
+                        <input type="password" class="form-control w-75 ml-2 mr-auto" placeholder="Enter ID">
+                    </div>
+                </div>
+
+                <div class="form-row px-5 mx-auto">
+                    <div class="form-group col-md-6">
+                        <input type="phone-number" class="form-control w-75 mr-2 ml-auto" placeholder="Phone Number">
+                    </div>
+                    <div class="form-group col-md-6">
+                        <select class="form-control w-75 ml-2 mr-auto text-secondary" placeholder="No Of Person">
+                            <option selected>NO OF PERSON</option>
+                            <option selected>no of person</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="form-row px-5 mx-auto">
+                    <div class="form-group col-md-6">
+                        <input class="form-control w-75 mr-2 ml-auto" placeholder="Date">
+                    </div>
+                    <div class="form-group col-md-6">
+                        <input class="form-control w-75 ml-2 mr-auto" placeholder="Time">
+                    </div>
+                </div>
+
+                <div class="form-row px-5 mx-auto text-secondary">
+                    <div class="form-group col-md-6">
+                        <select class="form-control w-75 mr-2 ml-auto d-block" placeholder="Occasion">
+                            <option selected>OCCASION</option>
+                            <option selected>occasion</option>
+                        </select>
+                    </div>
+                    <div class="form-group col-md-6 ">
+                        <select class="form-control w-75 ml-2 mr-auto " placeholder="Cuisine">
+                            <option selected>CUISINE</option>
+                            <option selected>cuisine</option>
+                        </select>
+                    </div>
+                    <button class="btn btn-danger text-light my-5 p-3 mx-auto">BOOK NOW</button>
+                </div>
+
+            </form><!-- FIN FORMULAIRE--> 
+            <!-- FIN partie 1 "BOOK YOUR TABLE -->
+
+            <!-- DÉBUT partie 2 "OUR BLOG"-->
+            <h1 class="text-center pt-5 mb-0"><span class="text-danger display-4">OUR</span> Blog</h1>
+            <img class="d-block mx-auto" src="/public/images/decoration_line.png" alt="decoration_line">
+            <div class="row mx-auto blog py-5">
+                <div class="col-5 offset-1">
+                    <img class="w-100 d-block ml-auto" src="/public/images/blog_img1.jpg" alt="blog_img1">
+                    <h5 class="text-center text-light bg-danger mx-4 p-3">12 April 2017/ 20Comments/ 35Likes</h5>
+                    <h4 class="mx-4">Lorem, ipsum.</h4>
+                    <p class="mx-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, tempora.</p>
+                </div>
+                <div class="col-5">
+                    <img class="w-100" src="/public/images/blog_img2.jpg" alt="blog_img2">
+                    <h5 class="text-center text-light bg-danger mx-4 p-3">12 April 2017/ 20Comments/ 35Likes</h5>
+                    <h4 class="mx-4">Lorem, ipsum.</h4>
+                    <p class="mx-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, tempora.</p>
+                </div>
+                <button class="btn btn-danger text-light my-5 p-3 mx-auto">KNOW MORE</button>
+            </div> <!-- FIN de la partie 2 "OUR BLOG"-->
+        
+        </div> <!-- FIN du container-->
+    </section> 
+<!-- FIN DIAPO 4 -->
+
+
+<!-- DÉBUT DIAPO 5-->
+    <section class="client py-5">
+
+        <h1 class="text-center pt-5 mb-0 text-light"><span class="text-danger display-4">CLIENT</span> Testimonials</h1>
+        <img class="d-block mx-auto" src="/public/images/decoration_line.png" alt="decoration_line">
+        
+        <div class="container py-5">
+            <div class="row text-light pt-5">
+                
+                <div class="col-6">
+                    <div class="media">
+                        <img class="align-self-center mr-4 rounded-circle" src="/public/images/testimonial1.jpg" alt="testimonial1">
+                        <div class="media-body border p-3">
+                            <h5 class="mt-0">Lorem Ipsum</h5>
+                            <p class="text-danger mb-2">Manager</p>
+                            <p class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam officia hic
+                                quos molestias repellat suscipit!</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-6">
+                    <div class="media">
+                        <div class="media-body border p-3">
+                            <h5 class="mt-0">Lorem Ipsum</h5>
+                            <p class="text-danger mb-2">Manager</p>
+                            <p class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam officia hic
+                                quos molestias repellat suscipit!</p>
+                        </div>
+                        <img class="align-self-center ml-4 rounded-circle" src="/public/images/testimonial1.jpg" alt="testimonial1">
+                    </div>
+                </div>
+
+            </div> <!-- FIN ROW -->
+        </div> <!-- FIN CONTAINER -->
+    </section>
+<!-- FIN DIAPO 5-->
+
+
+<!-- DÉBUT DIAPO 6 -->
+    <section class="contact py-5">
+
+        <h1 class="text-center pt-5 mb-0"><span class="text-danger display-4">OUR</span> Contact</h1>
+        <img class="d-block mx-auto pb-5" src="/public/images/decoration_line.png" alt="decoration_line">
+
+        <div class="bg-danger text-light w-30 mx-auto p-5 mt-5 text-center">
+            <i class="fas fa-map-marker-alt"></i>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque, quia.</p>
+
+            <hr class="bg-light">
+
+            <i class="fas fa-phone"></i>
+            <p>+91-1234567890</p>
+
+            <hr class="bg-light">
+
+            <i class="fas fa-envelope"></i>
+            <p>abc@abc.com</p>
+        </div>
+
+    </section>
+<!-- FIN DIAPO 6-->
+
+
+<!-- DÉBUT DIAPO 7-->
+    <footer>
+            <div class="top-section"></div>
+        <div class="container pt-5">
+            <div class="row text-light">
+                
+                <div class="col-4 px-4 text-justify">
+                    <h4 class="py-3">ABOUT US</h4>
+                    <p>Hac ex causa conlaticia stipe Valerius humatur ille Publicola et subsidiis amicorum 
+                       mariti inops cum liberis uxor alitur Reguli et dotatur ex aerario filia Scipionis, 
+                       cum nobilitas florem adultae virginis diuturnum absentia pauperis erubesceret patris.</p>
+                    <a class="text-light mr-4 h3" href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a class="text-light mr-4 h3" href="#"><i class="fab fa-google-plus-g"></i></a>
+                    <a class="text-light mr-4 h3" href="#"><i class="fab fa-pinterest-p"></i></a>
+                    <a class="text-light mr-4 h3" href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+
+                <div class="col-4 px-4">
+                    <h4 class="py-3">INSTAGRAM</h4>
+                    <div class="row mb-3">
+                        <div class="col-3 px-3"><img src="/public/images/instragram_gallery_img1.jpg" alt="#"></div>
+                        <div class="col-3 px-3"><img src="/public/images/instragram_gallery_img2.jpg" alt="#"></div>
+                        <div class="col-3 px-3"><img src="/public/images/instragram_gallery_img1.jpg" alt="#"></div>
+                        <div class="col-3 px-3"><img src="/public/images/instragram_gallery_img2.jpg" alt="#"></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-3 px-3"><img src="/public/images/instragram_gallery_img2.jpg" alt="#"></div>
+                        <div class="col-3 px-3"><img src="/public/images/instragram_gallery_img1.jpg" alt="#"></div>
+                        <div class="col-3 px-3"><img src="/public/images/instragram_gallery_img2.jpg" alt="#"></div>
+                        <div class="col-3 px-3"><img src="/public/images/instragram_gallery_img1.jpg" alt="#"></div>
+                    </div>
+                </div>
+
+                <div class="col-4 px-4">
+                    <h4 class="py-3">POPULAR TAGS</h4>
+                    <span class="badge badge-pill badge-danger px-3 py-2 border border-light mx-1 mb-2">Restaurant</span>
+                    <span class="badge badge-pill badge-danger px-3 py-2 border border-light mx-1 mb-2">Responsive Design</span>
+                    <span class="badge badge-pill badge-danger px-3 py-2 border border-light mx-1 mb-2">Hotel</span>
+                    <span class="badge badge-pill badge-danger px-3 py-2 border border-light mx-1 mb-2">Blog section</span>
+                    <span class="badge badge-pill badge-danger px-3 py-2 border border-light mx-1 mb-2">SEO</span>
+                    <span class="badge badge-pill badge-danger px-3 py-2 border border-light mx-1 mb-2">Cuisine</span>
+                    <span class="badge badge-pill badge-danger px-3 py-2 border border-light mx-1 mb-2">Graphic</span>
+                    <span class="badge badge-pill badge-danger px-3 py-2 border border-light mx-1 mb-2">Food</span>
+                </div>
+
+            </div> <!-- FIN DE LA ROW-->
+        </div> <!-- FIN DU CONTAINER -->
+
+        <div class="bg-danger py-5 mt-5"></div> <!-- carré red-pink=danger en bas-->
+
+    </footer>
+<!-- FIN DIAPO 7-->
+
+<script src="/ssrc/JS/script.js"></script>
+
+</body>
+</html>

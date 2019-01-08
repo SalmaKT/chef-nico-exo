@@ -1,0 +1,231 @@
+@import '../../node_modules/bootstrap/dist/css/bootstrap.css';
+html {
+  scroll-behavior: smooth;
+}
+
+#nav-1, #nav-2, #nav-3 {
+  transition-duration: 0.5s;
+}
+
+
+#banner #carouselExampleIndicators {
+  height: 100vh;
+  position: relative;
+}
+#banner #carouselExampleIndicators img {
+  filter: brightness(0.2);
+  height: 100vh;
+  width: auto;
+}
+#banner #carouselExampleIndicators .carousel-point {
+  height: 16px !important;
+  width: 16px !important;
+  border-radius: 50% !important;
+}
+#banner #carouselExampleIndicators .active {
+  background-color: white;
+  position: relative;
+}
+#banner #carouselExampleIndicators .active .point {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  border: 3px solid rgba(0, 0, 0, 0.699);
+}
+#banner #carouselExampleIndicators #text-accueil {
+  font-family: Courgette;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#banner #carouselExampleIndicators #text-accueil li button {
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 30px;
+}
+
+.bottom-section {
+  position: absolute;
+  bottom: 0px;
+  height: 10px;
+  width: 100%;
+  background-image: url(../../public/images/bottom_decoration_img.png);
+}
+
+.menu {
+  background-image: url(../../public/images/main_bg.jpg);
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+.menu .container {
+  background-color: white;
+  position: relative;
+}
+.menu .container img.corner-1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.menu .container img.corner-2 {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.menu .container img.corner-3 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.menu .container img.corner-4 {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.menu .container h1 {
+  font-family: Courgette;
+}
+.menu .container .tabulation {
+  font-family: Courgette;
+  border-right: solid 1px lightgray;
+  padding-right: 0;
+}
+.menu .container .tabulation .nav-link {
+  color: black;
+  border-bottom: solid 1px lightgray;
+  border-radius: 0%;
+}
+.menu .container .tabulation .nav-link i {
+  color: lightgray;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.menu .container .tabulation .active {
+  background-color: white !important;
+  color: dark !important;
+  border-right: solid #dc3545 5px !important;
+}
+.menu .container .tabulation .active i {
+  color: #dc3545 !important;
+}
+.menu .container .carte-menu .media {
+  border-bottom: dotted 1px lightgray;
+}
+.menu .container .carte-menu .badge {
+  background-color: lightgray;
+}
+
+.ourchef {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.479), black), url(../../public/images/team_background.jpg);
+}
+.ourchef h1 {
+  font-family: Courgette;
+}
+.ourchef .row img {
+  border-bottom: solid 1px lightgray;
+}
+
+.bookyourtable {
+  background-image: url(../../public/images/main_bg.jpg);
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+.bookyourtable .container {
+  background-color: white;
+  position: relative;
+}
+.bookyourtable .container img.corner-1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.bookyourtable .container img.corner-2 {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.bookyourtable .container img.corner-3 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.bookyourtable .container img.corner-4 {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.bookyourtable .container h1 {
+  font-family: Courgette;
+}
+.bookyourtable .container form {
+  background-image: url(../../public/images/book_table_bg.jpg);
+  border-radius: 30px;
+}
+.bookyourtable .container form input, .bookyourtable .container form select {
+  border-radius: 20px !important;
+  padding-top: 25px !important;
+  padding-bottom: 25px !important;
+}
+.bookyourtable .container button {
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 30px;
+}
+.bookyourtable .container .blog {
+  position: relative;
+}
+.bookyourtable .container .blog img {
+  border-radius: 30px;
+  border: solid 5px lightgray;
+}
+.bookyourtable .container .blog h5 {
+  border-radius: 10px;
+  position: absolute;
+  top: 230px;
+}
+.bookyourtable .container .blog h4 {
+  margin-top: 40px;
+}
+
+.client {
+  background-image: url(../../public/images/testimonials_background.jpg);
+}
+.client h1 {
+  font-family: Courgette;
+}
+.client .media img {
+  width: 150px;
+  border: solid 5px lightgray;
+}
+.client .media .media-body {
+  border-radius: 15px;
+}
+
+.contact {
+  background-image: url(../../public/images/main_bg.jpg);
+}
+.contact h1 {
+  font-family: Courgette;
+}
+.contact .w-30 {
+  width: 30%;
+  border-radius: 20px;
+}
+
+footer {
+  background-image: url(../../public/images/footer_background.jpg);
+  position: relative;
+}
+
+.top-section {
+  position: absolute;
+  top: 0px;
+  height: 10px;
+  width: 100%;
+  background-image: url(../../public/images/footer_bottom_decoration_img.png);
+}
+
+/*# sourceMappingURL=style.css.map */
