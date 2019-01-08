@@ -12,14 +12,14 @@ window.onscroll = function(){
     };
 
     // nav-bar qui deviendra rouge qd on arrivera sur la partie en question
-    scrollEventActive(0, 600, 'l-home');
-    scrollEventActive(600, 1200, 'l-about');
-    scrollEventActive(1200, 2100, 'l-menu');
-    scrollEventActive(2100, 2700, 'l-team');
-    scrollEventActive(2700, 3700, 'l-reservation');
-    scrollEventActive(3700, 4600, 'l-blog');
-    scrollEventActive(4600, 5200, 'l-testimonials');
-    scrollEventActive(5200, 7000, 'l-contact');
+    scrollEventActive(0, 600, 'banner-home');
+    scrollEventActive(600, 1200, 'banner-about');
+    scrollEventActive(1200, 2100, 'banner-menu');
+    scrollEventActive(2100, 2700, 'banner-team');
+    scrollEventActive(2700, 3700, 'banner-reservation');
+    scrollEventActive(3700, 4600, 'banner-blog');
+    scrollEventActive(4600, 5200, 'banner-testimonials');
+    scrollEventActive(5200, 7000, 'banner-contact');
 
 };
 
